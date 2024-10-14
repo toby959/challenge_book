@@ -8,8 +8,8 @@
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)&nbsp;&nbsp;&nbsp;![Java 17](https://img.shields.io/badge/java-17-blue?logo=java)&nbsp;&nbsp;&nbsp;![Version](https://img.shields.io/badge/version-v1.0-COLOR.svg)&nbsp;&nbsp;&nbsp;[![MIT License](https://img.shields.io/badge/licencia-MIT-blue.svg)](LICENSE)&nbsp;&nbsp;&nbsp;
 
 # Descripción 📖
-Este proyecto es una API que permite acceder a una amplia base de datos de libros del Proyecto Gutenberg. No se requiere token de acceso ni clave API para realizar solicitudes a la API Gutendex, lo que facilita su integración en aplicaciones.
-Estas funcionalidades hacen que la API Gutendex sea una herramienta poderosa para acceder a una vasta colección de literatura clásica y facilitar su uso en diversas aplicaciones.
+Este proyecto es una API que permite acceder a una amplia base de datos de libros del Proyecto Gutenberg. No se requiere un token de acceso ni una clave API para realizar solicitudes a la API Gutendex, lo que facilita su integración en diversas aplicaciones.
+Estas funcionalidades hacen que la API Gutendex sea una herramienta poderosa para acceder a una vasta colección de literatura clásica y facilitar su uso en diferentes contextos.
 
 Puedes encontrar más información
 sobre esta API en su [web](https://gutendex.com/?ref=public_apis)
@@ -17,23 +17,16 @@ ___
 
 # Recursos:
 
-| Plugin          | URL                      |
-|-----------------|--------------------------|
-| Gson            | https://mvnrepository.com/artifact/com.google.code.gson |
-| Dotenv          | https://mvnrepository.com/artifact/io.github.cdimascio/dotenv-java| 
+| Plugin            | URL                      |
+|-------------------|--------------------------|
+| jackson-databind  | https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind |
 ___
 # Herramientas utilizadas 🛠️
 * 1 - IntelliJ IDEA Community Edition: Un entorno de desarrollo integrado (IDE) para Java que facilita la programación.
 * 2 - Java versión 17.0.10: La versión del lenguaje de programación Java utilizada en este proyecto.
-* 3 - dotenv-java: Una biblioteca de Java que permite cargar variables de entorno desde un archivo .env en tu proyecto.
-* 4 - Scanner: Una herramienta fundamental en Java para la entrada de datos por consola, lo que permite interactuar con el usuario de manera efectiva.
-* 5 - Google Gson versión 2.11.0: Una biblioteca para convertir objetos Java a su representación JSON y viceversa.
-* 6 - GsonBuilder: Clase que permite configurar y personalizar la creación de un objeto Gson, proporcionando métodos para establecer diversas configuraciones, como políticas de nombres de campos y formateo de salida.
-* 7 - FieldNamingPolicy: Un enum proporcionado por la biblioteca Gson que define varias políticas de nomenclatura que se pueden aplicar a los nombres de los campos durante la serialización y deserialización.
-* 8 - Pretty Printing (setPrettyPrinting()): Este método configura el objeto Gson para que produzca salida JSON legible por humanos.
-* 9 - BufferedWriter: Una herramienta poderosa para escribir texto en archivos en Java, mejorando la eficiencia de las operaciones de escritura.
-* 10 - FileReader: Adecuado para leer caracteres desde archivos; puede ser utilizado solo o en combinación con BufferedReader para optimizar la lectura.
-
+* 3 - Scanner: Una herramienta fundamental en Java para la entrada de datos por consola, lo que permite interactuar con el usuario de manera efectiva.
+* 4 - jackson-databind: es una herramienta fundamental para manipular y procesar JSON en Java.
+* 5 - URLEncoder:  en Java es fundamental para codificar cadenas en un formato seguro para URLs.
 ___
 
 
@@ -58,7 +51,7 @@ ___
 #### La API de Gutendex proporciona acceso a una vasta colección de libros del Proyecto Gutenberg. Actualmente, la API cuenta con más de 60,000 libros disponibles para consulta.
 
 
-![Pagina Gutendex](image1.png)
+![Pagina Gutendex](image6.png)
 ___
 # Colaboraciones 🎯
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
@@ -83,10 +76,16 @@ Gracias por tu interés en contribuir a este proyecto. ¡Esperamos tus aportes!
 ___
 # Imagenes:
 
-![Imagen Consola](URL_de_la_imagen)
+![Imagen Consola](image1.png)
 
+![Imagen Consola](image2.png)
 
-![Imagen Carpetas](URL_de_la_imagen)
+![Imagen Consola](image3.png)
+
+![Imagen Consola](image4.png)
+
+![Imagen Consola](image5.png)
+
 
 ## Licencia 📜
 

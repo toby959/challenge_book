@@ -10,7 +10,7 @@ public record DataBook(
          String title,
          List<DataAuthor> authors,
          List<String> languages,
-        @JsonAlias("download_count") Double numberOfDownloads
+        @JsonAlias("download_count") Double downloadCount
 ) {
 
 }
