@@ -43,7 +43,7 @@ ___
 git clone
 <https://github.com/toby959/challenge_book.git>
 ```
-2 - Compila y ejecuta el archivo MainWithSearch.java.
+2 - Compila y ejecuta el archivo  ChallengeApplication.java.
 ___
 
 # Funcionalidades 📦
