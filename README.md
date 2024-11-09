@@ -17,16 +17,20 @@ ___
 
 # Recursos:
 
-| Plugin            | URL                      |
-|-------------------|--------------------------|
-| jackson-databind  | https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind |
+| Plugin            | URL                       |
+|-------------------|---------------------------|
+| jackson-databind  | https://start.spring.io/  |
+| spring-boot-starter-data-jpa | https://start.spring.io/ |
+| postgresql | https://start.spring.io/ |
 ___
 # Herramientas utilizadas 🛠️
 * 1 - IntelliJ IDEA Community Edition: Un entorno de desarrollo integrado (IDE) para Java que facilita la programación.
 * 2 - Java versión 17.0.10: La versión del lenguaje de programación Java utilizada en este proyecto.
 * 3 - Scanner: Una herramienta fundamental en Java para la entrada de datos por consola, lo que permite interactuar con el usuario de manera efectiva.
 * 4 - jackson-databind: es una herramienta fundamental para manipular y procesar JSON en Java.
-* 5 - URLEncoder:  en Java es fundamental para codificar cadenas en un formato seguro para URLs.
+* 5 - spring-boot-starter-data-jpa: es un módulo de Spring Boot que facilita la implementación de aplicaciones basadas en JPA (Java Persistence API) utilizando Hibernate como proveedor de persistencia. Este starter proporciona una configuración automática y simplificada para acceder a bases de datos relacionales, permitiendo a los desarrolladores enfocarse en la lógica del negocio sin preocuparse por el código repetitivo y la complejidad técnica.   
+* 6 - PostgreSQL: es un sistema de gestión de bases de datos relacional y objeto-relacional de código abierto, conocido por su robustez, flexibilidad y capacidad para manejar grandes volúmenes de datos.   
+
 ___
 
 
@@ -51,7 +55,7 @@ ___
 #### La API de Gutendex proporciona acceso a una vasta colección de libros del Proyecto Gutenberg. Actualmente, la API cuenta con más de 60,000 libros disponibles para consulta.
 
 
-![Pagina Gutendex](image6.png)
+![Pagina Gutendex](pantalla6.png)
 ___
 # Colaboraciones 🎯
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
@@ -76,15 +80,17 @@ Gracias por tu interés en contribuir a este proyecto. ¡Esperamos tus aportes!
 ___
 # Imagenes:
 
-![Imagen Consola](image1.png)
+![Imagen Consola](pantalla1.png)
 
-![Imagen Consola](image2.png)
+![Imagen Consola](pantalla2.png)
 
-![Imagen Consola](image3.png)
+![Imagen Consola](pantalla3.png)
 
-![Imagen Consola](image4.png)
+![Imagen Consola](pantalla4.png)
 
-![Imagen Consola](image5.png)
+![Imagen DB Postgres](pantalla5.png)
+
+![Imagen Badge](pantalla6.png)
 
 
 ## Licencia 📜

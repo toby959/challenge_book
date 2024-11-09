@@ -8,6 +8,6 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record Data(
 
-     @JsonAlias("results") List<DataBook> bookList
+     @JsonAlias("results") List<DataBook> results
 ) {
 }
