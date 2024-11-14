@@ -90,7 +90,7 @@ ___
 
 ![Imagen DB Postgres](pantalla5.png)
 
-![Imagen Badge](pantalla6.png)
+![Imagen Badge](Badge-Spring.png)
 
 
 ## Licencia 📜
